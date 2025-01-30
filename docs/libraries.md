@@ -19,3 +19,14 @@ The bile acid MS/MS spectral library consists of 21,549 spectra representing mod
 4. You can then fill other parameters for the GNPS2 job and submit your analyses. 
 
 ![Including the BA library](img/edit-pages/BA_lib_GNPS2_documentation.jpg)
+
+### Candidate bile acid modification spectral library
+
+This library contains 731 MS/MS spectra that have bile acid steroid core annotation as assigned by the MS/MS fragmentation-based MassQL filtering tree for monohydroxy, dihydroxy and trihydroxy bile acids. Spectral matching with this library will need to be validated by retention time matching with synthetic standards. This library will not be added as a default library and will need to be added as an additional libraries for spectral matching while analyzing data as a molecular network.
+
+1. Click on the "Select Input Spectral Library Folder" to open the new tab where you can select the bile acid modification library. 
+2. Click on "Library" to dispaly all the propagated libraries.
+3. From this list, click on GNPS-MASSQL-BILE-ACID-ISOMER library to select it. 
+4. Click on the "Add Selected File to Input Spectral Library Folder" to add the library for spectral matching.
+3. Verify that the library now appears in the "File Selection - Input Spectral Library Folder" in the main workkflow launch page.
+4. You can then fill other parameters for the GNPS2 job and submit your analyses. 
